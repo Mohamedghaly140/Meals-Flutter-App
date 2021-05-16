@@ -42,6 +42,7 @@ class MealDetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('${selectedMeal.title}'),
+        brightness: Brightness.dark,
       ),
       body: SingleChildScrollView(
         child: Column(

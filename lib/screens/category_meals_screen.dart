@@ -40,6 +40,7 @@ class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(categoryTitle),
+        brightness: Brightness.dark,
       ),
       body: ListView.builder(
         itemBuilder: (ctx, i) {
