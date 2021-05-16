@@ -48,6 +48,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Your Filters'),
+        brightness: Brightness.dark,
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.save),

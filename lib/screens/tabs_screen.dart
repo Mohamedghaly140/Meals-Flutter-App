@@ -43,6 +43,7 @@ class _TabsScreenState extends State<TabsScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(_pages[_selectedPageIndex]['title']),
+        brightness: Brightness.dark,
       ),
       drawer: MainDrawer(),
       body: _pages[_selectedPageIndex]['page'],
